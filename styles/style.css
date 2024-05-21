@@ -52,10 +52,10 @@ ol {
 
 .content {
   display: flex;
+  justify-content: space-between;
   align-items: end;
   inline-size: 1140px;
   block-size: 534px;
-  padding-inline: 30px;
   gap: 30px;
 }
 
@@ -81,9 +81,11 @@ ol {
 
 .content__list {
   position: relative;
+  display: flex;
+  flex-direction: column;
   padding-block-start: 26px;
   block-size: 298px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .content__list-item:not(:nth-last-child(2)) {
