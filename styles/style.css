@@ -62,7 +62,7 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 26px;
   inline-size: 100%;
   block-size: 100%;
 }
@@ -83,7 +83,6 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding-block-start: 26px;
   block-size: 298px;
   overflow-y: auto;
 }
