@@ -104,7 +104,6 @@ ol {
 
 .search-form__fieldset {
   border: none;
-
 }
 
 .search-form__fieldset-title {
@@ -118,6 +117,7 @@ ol {
 .search-form__label {
   display: flex;
   width: fit-content;
+  cursor: pointer;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -153,11 +153,21 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid white;
   block-size: 19px;
   inline-size: 19px;
   cursor: pointer;
   margin-inline-end: 5px;
+}
+
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+  content: "";
+  inline-size: 15px;
+  block-size: 15px;
+  background-color: white;
 }
 
 .button {
@@ -171,6 +181,10 @@ ol {
   font-weight: 700;
   line-height: 21.6px;
   font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.button:focus {
+  outline: none;
 }
 
 .search-form__submit-button {
