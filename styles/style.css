@@ -120,6 +120,11 @@ ol {
   cursor: pointer;
 }
 
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline 1px;
+  text-underline-offset: 2px;
+}
+
 .search-form__label:has(:focus-visible) {
   outline: 1px solid white;
   outline-offset: 2px;
@@ -187,6 +192,21 @@ ol {
   outline: none;
 }
 
+.button:focus-visible {
+  outline: 1px solid white;
+  outline-offset: 2px;
+}
+
+.button:active {
+  background: #545050;
+}
+
+.button:hover {
+  text-decoration: 1px underline;
+  text-underline-offset: 2px;
+}
+
+
 .search-form__submit-button {
   align-self: end;
   inline-size: 194px;
@@ -249,3 +269,4 @@ ol {
   font-size: 18px;
   line-height: 16.2px;
 }
+
