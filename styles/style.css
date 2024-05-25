@@ -99,7 +99,7 @@ ol {
 }
 
 .content__card-link_current {
-
+  background-color: #545050;
 }
 
 .content__card-link:active {
@@ -248,7 +248,7 @@ ol {
 .result__video-container video {
   inline-size: 100%;
   block-size: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
 }
 
