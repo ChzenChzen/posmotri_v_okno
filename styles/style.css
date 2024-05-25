@@ -277,6 +277,9 @@ ol {
   font-weight: 700;
   font-size: 30px;
   line-height: 1.0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   padding-block-end: 6px;
 }
 
