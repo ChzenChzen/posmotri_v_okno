@@ -87,7 +87,7 @@ ol {
   overflow-y: auto;
 }
 
-.content__list-item:not(:nth-last-child(2)) {
+.content__list-item:not(:last-child) {
   padding-block-end: 30px;
 }
 
