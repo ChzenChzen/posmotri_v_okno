@@ -72,7 +72,7 @@ ol {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 75px;
-  line-height: 70.5px;
+  line-height: 0.94;
 }
 
 .content__accent {
@@ -96,6 +96,10 @@ ol {
   margin: 2px;
   text-decoration: none;
   color: white;
+}
+
+.content__card-link_current {
+
 }
 
 .content__card-link:active {
@@ -129,7 +133,7 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 21.6px;
+  line-height: 1.2;
   padding-block-end: 5px;
 }
 
@@ -203,7 +207,7 @@ ol {
   padding: 6px 0;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21.6px;
+  line-height: 1.2;
   font-family: 'Fira Sans Condensed', sans-serif;
 }
 
@@ -270,7 +274,7 @@ ol {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
-  line-height: 30px;
+  line-height: 1.0;
   padding-block-end: 6px;
 }
 
@@ -282,5 +286,5 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 16.2px;
+  line-height: 0.9;
 }
