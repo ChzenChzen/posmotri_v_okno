@@ -285,6 +285,7 @@ ol {
 
 .content__video-card-description-container {
   inline-size: 200px;
+  flex-grow: 1;
 }
 
 .content__video-card-description {
